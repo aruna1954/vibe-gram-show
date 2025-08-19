@@ -50,7 +50,13 @@ export default {
 				},
 				card: {
 					DEFAULT: 'hsl(var(--card))',
-					foreground: 'hsl(var(--card-foreground))'
+					foreground: 'hsl(var(--card-foreground))',
+					border: 'hsl(var(--card-border))'
+				},
+				instagram: {
+					start: 'hsl(var(--instagram-start))',
+					middle: 'hsl(var(--instagram-middle))',
+					end: 'hsl(var(--instagram-end))'
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
@@ -67,6 +73,17 @@ export default {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)'
+			},
+			backgroundImage: {
+				'gradient-instagram': 'var(--gradient-instagram)',
+				'gradient-story': 'var(--gradient-story)'
+			},
+			boxShadow: {
+				'post': 'var(--shadow-post)',
+				'elevated': 'var(--shadow-elevated)'
+			},
+			transitionProperty: {
+				'smooth': 'var(--transition-smooth)'
 			},
 			keyframes: {
 				'accordion-down': {
